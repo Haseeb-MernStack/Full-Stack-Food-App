@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  --button: #D19254;
+  --hoverButtonColor: #d18c47;
+}
+
+@layer utilities {
+  .btn-primary {
+    background-color: var(--button) !important;
+  }
+
+  .btn-primary-hover:hover {
+    background-color: var(--hoverButtonColor) !important;
+  }
+}
